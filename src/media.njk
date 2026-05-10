@@ -1,0 +1,46 @@
+---
+layout: layouts/base.njk
+title: Trailers & Visual Media
+permalink: /media/
+---
+<section class="page-hero">
+  <h1>Trailers &amp; Visual Media</h1>
+  <p>A place for cinematic trailers, BookTok/Instagram clips, animated artwork and visual teasers.</p>
+</section>
+<section class="section">
+  <div class="wrap">
+    {% if media.video_embed %}
+    <div style="border-radius:24px;overflow:hidden;aspect-ratio:16/9;">
+      {{ media.video_embed | safe }}
+    </div>
+    {% else %}
+    <div class="media-box">Featured trailer embed area — add a YouTube or Vimeo embed via the CMS.</div>
+    {% endif %}
+  </div>
+</section>
+{% if media.gallery | length %}
+<section class="section alt">
+  <div class="wrap">
+    <h2 class="section-title">Artwork Gallery</h2>
+    <div class="grid cards3">
+      {% for item in media.gallery %}
+      <div style="border-radius:18px;overflow:hidden;">
+        <img src="{{ item.image }}" alt="Gallery image" style="width:100%;height:260px;object-fit:cover;display:block;">
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="section alt">
+  <div class="wrap">
+    <h2 class="section-title">Artwork Gallery</h2>
+    <p class="section-intro">Use this page for character portraits, creature art, realm landscapes, quote graphics and behind-the-scenes visuals.</p>
+    <div class="grid cards3">
+      <div class="placeholder">Gallery Image</div>
+      <div class="placeholder">Gallery Image</div>
+      <div class="placeholder">Gallery Image</div>
+    </div>
+  </div>
+</section>
+{% endif %}

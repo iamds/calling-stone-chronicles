@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+title: Creatures
+permalink: /creatures/
+---
+<section class="page-hero">
+  <h1>Creatures</h1>
+  <p>A bestiary of ancient beings, monsters, guardians and mythic forces from the fantasy realm.</p>
+</section>
+<section class="section">
+  <div class="wrap grid cards2">
+    {% for creature in collections.creatures %}
+    <article id="{{ creature.data.slug }}" class="panel">
+      <h2>{{ creature.data.title }}</h2>
+      <p>{{ creature.data.description }}</p>
+      <h3>Symbolism</h3>
+      <p>{{ creature.data.symbolism }}</p>
+      {% if creature.data.body %}
+      <div style="color:var(--muted);margin-top:16px;">{{ creature.data.body | markdown | safe }}</div>
+      {% endif %}
+      {% if creature.data.image %}
+      <img src="{{ creature.data.image }}" alt="{{ creature.data.title }}" style="width:100%;border-radius:14px;margin-top:20px;">
+      {% else %}
+      <div class="media-box" style="margin-top:20px;">{{ creature.data.title }} image / dossier</div>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>

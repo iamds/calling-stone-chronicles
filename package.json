@@ -1,0 +1,13 @@
+{
+  "name": "calling-stone-chronicles",
+  "version": "1.0.0",
+  "description": "The Calling Stone Chronicles — author website",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "markdown-it": "^14.1.0"
+  }
+}

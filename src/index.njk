@@ -1,0 +1,103 @@
+---
+layout: layouts/base.njk
+permalink: /
+---
+<section class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">The Calling Stone Chronicles</div>
+    <h1>{{ homepage.hero_title | replace("\n", "<br>") | safe }}</h1>
+    <p>{{ homepage.hero_subtitle }}</p>
+    <div class="buttons">
+      <a class="button primary" href="/books/">Explore the Series</a>
+      <a class="button" href="/media/">Watch Trailers</a>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="wrap">
+    <h2 class="section-title">The Books</h2>
+    <p class="section-intro">Five interconnected fantasy novels where mirrored worlds reveal courage, deception, belief, consequence and dawn.</p>
+    <div class="grid books">
+      {% for book in collections.books %}
+      <article class="card">
+        {% if book.data.cover_image %}
+        <img src="{{ book.data.cover_image }}" alt="{{ book.data.title }}">
+        {% else %}
+        <div class="placeholder">Book {{ book.data.order }} Artwork</div>
+        {% endif %}
+        <div class="card-body">
+          <h3>{{ book.data.title }}</h3>
+          <p>{{ book.data.summary }}</p>
+          <a class="button" href="/books/#book-{{ book.data.order }}">Enter the Book</a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-title">Enter the Realms</h2>
+    <div class="grid cards2">
+      {% for realm in collections.realms %}
+      <a class="realm" href="/realms/#{{ realm.data.slug }}">
+        <div>
+          <h3>{{ realm.data.title }}</h3>
+          <p>{{ realm.data.tagline }}</p>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="wrap">
+    <h2 class="section-title">Creatures of the Chronicles</h2>
+    <p class="section-intro">Ancient beings of silence, destruction, temptation, hunger and shadow.</p>
+    <div class="grid cards3">
+      {% for creature in collections.creatures | slice(0, 3) %}
+      <article class="card">
+        {% if creature.data.image %}
+        <img src="{{ creature.data.image }}" alt="{{ creature.data.title }}">
+        {% else %}
+        <div class="placeholder">{{ creature.data.title }}</div>
+        {% endif %}
+        <div class="card-body">
+          <h3>{{ creature.data.title }}</h3>
+          <p>{{ creature.data.description | truncate(120) }}</p>
+          <a class="button" href="/creatures/#{{ creature.data.slug }}">View Creature</a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% if collections.blog | length %}
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-title">Latest from the Blog</h2>
+    <div class="grid cards3">
+      {% for post in collections.blog | slice(0, 3) %}
+      <a class="blog-card" href="{{ post.url }}">
+        {% if post.data.image %}
+        <img src="{{ post.data.image }}" alt="{{ post.data.title }}">
+        {% endif %}
+        <div class="meta">{{ post.date | readableDate }}</div>
+        <h3>{{ post.data.title }}</h3>
+        <p>{{ post.data.summary | truncate(120) }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="section alt">
+  <div class="wrap">
+    <p class="quote">&ldquo;{{ homepage.quote }}&rdquo;</p>
+  </div>
+</section>

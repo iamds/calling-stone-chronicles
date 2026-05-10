@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+title: Realms
+permalink: /realms/
+---
+<section class="page-hero">
+  <h1>The Realms</h1>
+  <p>Each realm has its own atmosphere, danger and colour language.</p>
+</section>
+<section class="section">
+  <div class="wrap grid cards2">
+    {% for realm in collections.realms %}
+    <article id="{{ realm.data.slug }}" class="panel">
+      <h2>{{ realm.data.title }}</h2>
+      <p>{{ realm.data.description }}</p>
+      {% if realm.data.body %}
+      <div style="color:var(--muted);margin-top:16px;">{{ realm.data.body | markdown | safe }}</div>
+      {% endif %}
+      {% if realm.data.image %}
+      <img src="{{ realm.data.image }}" alt="{{ realm.data.title }}" style="width:100%;border-radius:14px;margin-top:20px;">
+      {% else %}
+      <div class="media-box" style="margin-top:20px;">Realm image / gallery</div>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>

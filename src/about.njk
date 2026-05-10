@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+title: About
+permalink: /about/
+---
+<section class="page-hero">
+  <h1>About the Author</h1>
+  <p>{{ about.subtitle }}</p>
+</section>
+<section class="section">
+  <div class="wrap detail-layout">
+    <div class="panel">
+      <h2>About The Calling Stone Chronicles</h2>
+      {{ about.bio | markdown | safe }}
+      {% if about.contact %}
+      <h3>Contact / Links</h3>
+      {{ about.contact | markdown | safe }}
+      {% endif %}
+    </div>
+    <aside class="panel">
+      {% if about.photo %}
+      <img src="{{ about.photo }}" alt="Author photo" style="width:100%;border-radius:14px;">
+      {% else %}
+      <div class="media-box">Author photo / logo</div>
+      {% endif %}
+    </aside>
+  </div>
+</section>

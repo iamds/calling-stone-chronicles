@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+title: Characters
+permalink: /characters/
+---
+<section class="page-hero">
+  <h1>Characters</h1>
+  <p>Portraits, relationships and character pages can be expanded as your artwork library grows.</p>
+</section>
+<section class="section">
+  <div class="wrap grid cards3">
+    {% for character in collections.characters %}
+    <article class="card">
+      {% if character.data.portrait %}
+      <img src="{{ character.data.portrait }}" alt="{{ character.data.title }}">
+      {% else %}
+      <div class="placeholder">{{ character.data.title }} Portrait</div>
+      {% endif %}
+      <div class="card-body">
+        <h3>{{ character.data.title }}</h3>
+        <p>{{ character.data.description }}</p>
+        {% if character.data.body %}
+        <div style="color:var(--muted);">{{ character.data.body | markdown | safe }}</div>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

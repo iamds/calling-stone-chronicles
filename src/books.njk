@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+title: Books
+permalink: /books/
+---
+<section class="page-hero">
+  <h1>The Books</h1>
+  <p>Five novels tracing Gracie&rsquo;s journey from discovery to courage, truth, belief, wisdom and dawn.</p>
+</section>
+<section class="section">
+  <div class="wrap grid cards2">
+    {% for book in collections.books %}
+    <article id="book-{{ book.data.order }}" class="card">
+      {% if book.data.cover_image %}
+      <img src="{{ book.data.cover_image }}" alt="{{ book.data.title }}">
+      {% else %}
+      <div class="placeholder">Cover / Banner Image</div>
+      {% endif %}
+      <div class="card-body">
+        <h3>{{ book.data.title }}</h3>
+        <p>{{ book.data.description }}</p>
+        {% if book.data.trailer_url %}
+        <a class="button" href="{{ book.data.trailer_url }}" target="_blank" rel="noopener">Watch Trailer</a>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

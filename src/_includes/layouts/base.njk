@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title %}{{ title }} | {% endif %}The Calling Stone Chronicles</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav">
+    <a class="logo" href="/">The Calling Stone Chronicles</a>
+    <div class="nav-links">
+      <a href="/books/">Books</a>
+      <a href="/realms/">Realms</a>
+      <a href="/characters/">Characters</a>
+      <a href="/creatures/">Creatures</a>
+      <a href="/media/">Media</a>
+      <a href="/blog/">Blog</a>
+      <a href="/about/">About</a>
+    </div>
+  </nav>
+</header>
+{{ content | safe }}
+<footer class="footer">The Calling Stone Chronicles</footer>
+<script>
+  // Netlify Identity redirect — required for CMS login flow
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+</body>
+</html>

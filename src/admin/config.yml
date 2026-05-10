@@ -1,0 +1,261 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Decap CMS — The Calling Stone Chronicles
+# ─────────────────────────────────────────────────────────────────────────────
+#
+# SETUP: Replace YOUR-REPO-OWNER and YOUR-REPO-NAME with your GitHub details.
+# Then follow the README to enable Netlify Identity and Git Gateway.
+#
+backend:
+  name: git-gateway
+  branch: main            # change to 'master' if that's your default branch
+
+# Where uploaded images are stored in the repo
+media_folder: "src/images"
+# How images appear in HTML (relative to site root)
+public_folder: "/images"
+
+# Show editorial workflow (Draft → In Review → Ready)
+publish_mode: editorial_workflow
+
+# ─────────────────────────────────────────────────────────────────────────────
+# COLLECTIONS
+# ─────────────────────────────────────────────────────────────────────────────
+collections:
+
+  # ── Books ──────────────────────────────────────────────────────────────────
+  - name: "books"
+    label: "Books"
+    label_singular: "Book"
+    folder: "src/books"
+    create: true
+    slug: "{{order}}-{{slug}}"
+    identifier_field: title
+    summary: "{{order}}. {{title}}"
+    sortable_fields: ["order", "title"]
+    fields:
+      - label: "Book Number"
+        name: "order"
+        widget: "number"
+        value_type: "int"
+        min: 1
+        hint: "Used to order books on the page (1 = first)."
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Short Summary"
+        name: "summary"
+        widget: "string"
+        hint: "One-line teaser shown on the homepage."
+      - label: "Full Description"
+        name: "description"
+        widget: "text"
+        hint: "Shown on the Books page."
+      - label: "Cover Image"
+        name: "cover_image"
+        widget: "image"
+        required: false
+        hint: "Upload the book cover or banner artwork."
+      - label: "Trailer URL"
+        name: "trailer_url"
+        widget: "string"
+        required: false
+        hint: "Link to YouTube/Vimeo trailer (optional)."
+      - label: "URL Slug"
+        name: "slug"
+        widget: "string"
+        hint: "Used in anchor links, e.g. threads-of-trial-and-light"
+
+  # ── Characters ─────────────────────────────────────────────────────────────
+  - name: "characters"
+    label: "Characters"
+    label_singular: "Character"
+    folder: "src/characters"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - label: "Name"
+        name: "title"
+        widget: "string"
+      - label: "URL Slug"
+        name: "slug"
+        widget: "string"
+        hint: "Lowercase, hyphens only, e.g. gracie-fellows"
+      - label: "Short Description"
+        name: "description"
+        widget: "text"
+        hint: "One or two sentences shown on the character card."
+      - label: "Extended Bio"
+        name: "body"
+        widget: "markdown"
+        required: false
+        hint: "Optional longer character profile (shown below the short description)."
+      - label: "Portrait Image"
+        name: "portrait"
+        widget: "image"
+        required: false
+
+  # ── Creatures ──────────────────────────────────────────────────────────────
+  - name: "creatures"
+    label: "Creatures"
+    label_singular: "Creature"
+    folder: "src/creatures"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - label: "Name"
+        name: "title"
+        widget: "string"
+      - label: "URL Slug / Anchor ID"
+        name: "slug"
+        widget: "string"
+        hint: "Lowercase, hyphens only, e.g. nixpardus"
+      - label: "Description"
+        name: "description"
+        widget: "text"
+      - label: "Symbolism"
+        name: "symbolism"
+        widget: "string"
+        hint: "Short phrase describing what this creature represents."
+      - label: "Extended Lore"
+        name: "body"
+        widget: "markdown"
+        required: false
+      - label: "Creature Image"
+        name: "image"
+        widget: "image"
+        required: false
+
+  # ── Realms ─────────────────────────────────────────────────────────────────
+  - name: "realms"
+    label: "Realms"
+    label_singular: "Realm"
+    folder: "src/realms"
+    create: true
+    slug: "{{order}}-{{slug}}"
+    identifier_field: title
+    summary: "{{order}}. {{title}}"
+    fields:
+      - label: "Display Order"
+        name: "order"
+        widget: "number"
+        value_type: "int"
+        min: 1
+      - label: "Name"
+        name: "title"
+        widget: "string"
+      - label: "URL Slug / Anchor ID"
+        name: "slug"
+        widget: "string"
+        hint: "Lowercase, hyphens only, e.g. winter-court"
+      - label: "Tagline"
+        name: "tagline"
+        widget: "string"
+        hint: "Short phrase shown on the homepage realm cards."
+      - label: "Description"
+        name: "description"
+        widget: "text"
+      - label: "Extended Description"
+        name: "body"
+        widget: "markdown"
+        required: false
+      - label: "Realm Image"
+        name: "image"
+        widget: "image"
+        required: false
+
+  # ── Blog / News ────────────────────────────────────────────────────────────
+  - name: "blog"
+    label: "Blog / News"
+    label_singular: "Post"
+    folder: "src/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+      - label: "Summary"
+        name: "summary"
+        widget: "text"
+        hint: "Short preview shown on the blog listing and homepage."
+      - label: "Featured Image"
+        name: "image"
+        widget: "image"
+        required: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+
+  # ── Site Pages (singleton file collections) ────────────────────────────────
+  - name: "pages"
+    label: "Site Pages"
+    files:
+
+      - name: "homepage"
+        label: "Homepage"
+        file: "src/_data/homepage.json"
+        fields:
+          - label: "Hero Title"
+            name: "hero_title"
+            widget: "string"
+            hint: "Use \\n for line breaks, e.g. Light.\\nShadow.\\nDangerous Truth."
+          - label: "Hero Subtitle"
+            name: "hero_subtitle"
+            widget: "text"
+          - label: "Pull Quote"
+            name: "quote"
+            widget: "string"
+            hint: "The large quote shown at the bottom of the homepage."
+
+      - name: "about"
+        label: "About Page"
+        file: "src/_data/about.json"
+        fields:
+          - label: "Page Subtitle"
+            name: "subtitle"
+            widget: "text"
+            hint: "The line shown under the 'About the Author' heading."
+          - label: "Author Bio"
+            name: "bio"
+            widget: "markdown"
+            hint: "Main body text — supports bold, links, paragraphs."
+          - label: "Contact / Links"
+            name: "contact"
+            widget: "markdown"
+            required: false
+            hint: "Publisher, social media, newsletter or contact info."
+          - label: "Author Photo"
+            name: "photo"
+            widget: "image"
+            required: false
+
+      - name: "media"
+        label: "Media Page"
+        file: "src/_data/media.json"
+        fields:
+          - label: "Featured Video Embed Code"
+            name: "video_embed"
+            widget: "text"
+            required: false
+            hint: "Paste the full <iframe> embed code from YouTube or Vimeo."
+          - label: "Gallery Images"
+            name: "gallery"
+            widget: "list"
+            required: false
+            summary: "{{fields.image}}"
+            fields:
+              - label: "Image"
+                name: "image"
+                widget: "image"
+              - label: "Caption"
+                name: "caption"
+                widget: "string"
+                required: false
