@@ -14,9 +14,6 @@ media_folder: "src/images"
 # How images appear in HTML (relative to site root)
 public_folder: "/images"
 
-# Show editorial workflow (Draft → In Review → Ready)
-publish_mode: editorial_workflow
-
 # ─────────────────────────────────────────────────────────────────────────────
 # COLLECTIONS
 # ─────────────────────────────────────────────────────────────────────────────
