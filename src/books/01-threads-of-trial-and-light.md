@@ -28,6 +28,6 @@ description: >-
 
   Some just call themselves family.  
 cover_image: /images/threads-of-trial-and-light-cover-.jpeg
-trailer_url: ""
+trailer_url: https://youtu.be/JqYsWrqasBU
 slug: threads-of-trial-and-light
 ---
