@@ -27,7 +27,7 @@ description: >-
   Some predators have claws. 
 
   Some just call themselves family.  
-cover_image: ""
+cover_image: /images/threads-of-trial-and-light-cover-.jpeg
 trailer_url: ""
 slug: threads-of-trial-and-light
 ---
