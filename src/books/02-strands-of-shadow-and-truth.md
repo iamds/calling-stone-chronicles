@@ -26,7 +26,7 @@ description: >
   Because some bargains never disappear.
 
   They demand to be paid.
-cover_image: ""
-trailer_url: ""
+cover_image: /images/strands-of-shadow-and-truth-front-cover-.jpeg
+trailer_url: https://youtu.be/OBia6TReiMQ
 slug: strands-of-shadow-and-truth
 ---
