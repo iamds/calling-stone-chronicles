@@ -4,6 +4,7 @@ title: King Edmund and Queen Serena of Limskada. House Caelithorne. Rulers of
 slug: king-edmund queen-serena
 description: "Bound by bloodlines, purity and pride. The rulers of Limskada
   expect protection, respect and duty. "
+portrait: /images/king-edmund-queen-serena-.jpg
 ---
 King Edmund and Queen Serena of Limskada are the rulers of The Mortal Realm. This realm within Elyndra, contains no magic unlike the Fae realms of Spring, Summer, Autumn and Winter. 
 
