@@ -4,7 +4,7 @@ title: " Crown Prince Dara. House Caelithorne Heir to the throne of Limskada,
 slug: dara
 description: Dark, conflicted and dangerous, with ties later to the Mire and the
   shifting politics of the fantasy realm.
-portrait: ""
+portrait: /images/dara-details-.jpg
 ---
 Crown Prince Dara is a brooding, stern quiet young man. Described as dark-haired, composed with a serious expression. He has deep green eyes.  He hates the Fae, who he believes took, kidnapped, his younger sister Aurelin when she was seven. He is heir to the throne of LImskada and is devoted to his realm, country, and royalty. He has little time for Tavian's stories and quick comments. They bicker and argue constantly. As Crown Prince, Dara leads the quest for The third Callisvaan. He is able to command the soldiers/ guards who travel with them. He is expecting Gracie to fail miserably on the quest. 
 
