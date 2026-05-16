@@ -11,9 +11,7 @@ The Mirewalkers are men - like beasts formed from rot, earth and mire.  Trolls f
 
 From Book 2 'Strands of Shadow and Truth"
 
-
-
-The shapes don’t fade. Instead, they grow—massive lumps rising from the earth, dragging themselves up as if the land is surrendering itself to some hidden force. The creatures pull themselves out of the very earth, as if the ground is giving life to them. The land shifts and pulses beneath them, bending to their will as they emerge. Step by step they push closer. The sound of cracking twigs, sloshing mud and squelching grass grows louder. Their treads a low, rhythmic thunder fills the silence.
+"The shapes don’t fade. Instead, they grow—massive lumps rising from the earth, dragging themselves up as if the land is surrendering itself to some hidden force. The creatures pull themselves out of the very earth, as if the ground is giving life to them. The land shifts and pulses beneath them, bending to their will as they emerge. Step by step they push closer. The sound of cracking twigs, sloshing mud and squelching grass grows louder. Their treads a low, rhythmic thunder fills the silence.
 
 They take form. Their mottled, thick and grey-green skin blends with shadows and moss. Glimmers of wetness reflect off them, Their eyes, twin coals smouldering in the depths of their rough faces, catch the faintest light
 
@@ -29,4 +27,4 @@ Their misshapen forms are wrapped in layers of grime and old moss, some even kno
 
 Our trek grinds to a halt. In the middle of the advancing creatures, Tavian is their prisoner, his arms wrapped with vines, holding him fast like roots reclaiming their own.
 
-*Tavian? No! I have todo something*.
+*Tavian? No! I have todo something*."
