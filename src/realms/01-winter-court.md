@@ -9,4 +9,4 @@ image: /images/seelie-winter-serandor-and-the-serantrae-dominion-the-winter-cour
 ---
 The Seelie Winter Court. House Seranthiel. 
 
-Realm: The Seranstrae Dominion – Realm ofHonour and Starlight. The Winter Court
+Realm: The Seranstrae Dominion – Realm ofHonour and Starlight. The Winter Court.
