@@ -1,5 +1,6 @@
 ---
-title: Prince Tavian - House Caelithorne. Realm of Limskada, The Mortal Realm.
+title: Prince Tavian Second Prince - House Caelithorne. Realm of Limskada, The
+  Mortal Realm.
 slug: tavian
 description: A mortal prince bound by love, loyalty, mistakes and impossible pressure.
 portrait: /images/tavian-details-.jpeg
