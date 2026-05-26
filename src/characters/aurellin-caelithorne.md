@@ -1,5 +1,5 @@
 ---
-title: Aurellin Caelithorne
+title: Aurelin Caelithorne
 slug: aurelin
 description: Kidnapped by Thornhelm, age seven. Enchanted. Red hair, green eyes, pale skin.
 ---
