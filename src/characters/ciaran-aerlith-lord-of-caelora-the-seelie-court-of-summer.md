@@ -3,6 +3,7 @@ title: Ciaran Aerlith - Lord of Caelora, The Seelie Court of Summer.
 slug: ciaran
 description: Ciaran,  solar winged lord of Summer. Quiet and patient. He is
   loyal friend, to Winter, to Gracielle.
+portrait: /images/ciaran-wings-correct.jpg
 ---
 
 
