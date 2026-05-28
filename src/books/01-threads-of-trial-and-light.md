@@ -14,7 +14,7 @@ description: >-
 
   At school, she fighting bullies who want her broken and classes her brain refuse to decode. At home her mother is too distracted to notice her new boyfriend Seth, watching Gracie like prey— his grip tightening every day. 
 
-  And she's trapped on a kill or be killed quest in the Fae lands, with two princes who couldn't be more different - one of them already hating her guts, the other full of stories, laughter and friendship. Lethal sirens, cursed rivers, nightmare monsters: every trial designed to shatter her. 
+  And she's trapped on a kill or be killed quest in the Fae lands, with two princes who couldn't be more different - one of them already hating her guts, the other full of stories, laughter and friendship. Lethal sirens, cursed rivers, nightmare monsters: every trial designed to shatter her.
 
   But the worst monster never left the real world.
 
