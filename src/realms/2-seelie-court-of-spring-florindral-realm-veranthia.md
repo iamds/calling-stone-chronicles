@@ -1,6 +1,6 @@
 ---
 order: 2
-title: " The Seelie Court of Spring. House Florindral. Realm Veranthia."
+title: " The Seelie Court of Spring. House Florindral. Veranthia."
 slug: spring
 tagline: Fertility. Birth. Renewal.
 description: "A realm of beginnings, renewal and growth. Its magic rooted in
