@@ -6,6 +6,7 @@ tagline: "More than just a mountain. Skjarthfell is judgement. "
 description: "Skjarthfell, mountains of despair.Like the broken teeth of an
   ancient god. Its timeless runes refuse the use of magic and truth may steal
   your soul. "
+image: /images/skjarthfell-.jpg
 ---
 
 
