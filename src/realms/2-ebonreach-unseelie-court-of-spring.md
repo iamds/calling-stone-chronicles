@@ -1,6 +1,6 @@
 ---
-order: 2
-title: Ebonreach Unseelie Court of Spring
+order: 5
+title: The Unseelie Court of Spring.  House Nyxareth. Ebonreach
 slug: ebonreach
 tagline: Beautiful corruption, purple shadow and green rot.
 description: Beautiful corruption. Purple and green shadow, dangerous glamour,
