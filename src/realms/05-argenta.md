@@ -1,5 +1,5 @@
 ---
-order: 5
+order: 10
 title: Argenta — The Silver Lands
 slug: argenta
 tagline: Pale sand, silver dust and inward truth.
