@@ -8,4 +8,5 @@ description: "A land of knowledge, fruition,  and endings, where golden leaves
   nature of Autumn, the ripening of fruit, falling leaves and harvest. They are
   advised not to forget that all things decay, knowledge is life and memories
   are precious. Strongest at dusk. "
+image: /images/seelie-autumn-orivane-amberfall-.jpeg
 ---
