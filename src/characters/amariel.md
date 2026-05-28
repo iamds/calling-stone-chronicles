@@ -10,8 +10,6 @@ As Gracie's story and heritage are revealed  we learn more about Amariel.
 
 From Chapter One of 'Strands of Shadow and Truth':
 
-
-
 “You cannot take her. The prophecy’s path is not yet trodden.”
 
 The voice— starlight woven into darkness—is ethereal, vast, and powerful. Beauty echoing from the heavens.
@@ -42,6 +40,6 @@ She stands before me, a dream woven from a thousand stars. Her hair, silver stra
 
 Shimmering hands close around mine. For a moment, it’s like the ground still shakes beneath my feet and I gasp, tears flowing over my cheeks, my breath caught in a tight knot of misery. 
 
-Amariel stands beside me, her light a breath in a suffocating room. The world bends and blurs, as if I’ve stepped into a dream half-submerged in water.
+Amariel stands beside me, her light a breath in a suffocating room. The world bends and blurs, as if I’ve stepped into a dream half-submerged in water. 
 
 “Child, Gracie. What do you see? Why does it bring such grief?”
