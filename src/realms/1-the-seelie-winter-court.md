@@ -1,6 +1,6 @@
 ---
 order: 1
-title: "The Seelie Winter Court.  House Seranthiel. The Seranstrae Dominion "
+title: "The Seelie Winter Court.  House Seranthiel. The Seranstrae Dominion. "
 slug: winter
 tagline: "Silver. Blue. Frostlight and Starlight. Power and Truth. "
 description: "The Seelie Winter Court. The Realm of Honour and Starlight. Stern,
