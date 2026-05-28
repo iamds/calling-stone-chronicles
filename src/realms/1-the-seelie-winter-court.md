@@ -1,6 +1,6 @@
 ---
 order: 1
-title: The Seelie Winter Court.
+title: "The Seelie Winter Court,  House Seranthiel The Seranstrae Dominion "
 slug: winter
 tagline: "Silver. Blue. Frostlight and Starlight. Power and Truth. "
 description: "The Seelie Winter Court. The Realm of Honour and Starlight. Stern,
@@ -8,7 +8,7 @@ description: "The Seelie Winter Court. The Realm of Honour and Starlight. Stern,
   powerful of the Seelie courts. "
 image: /images/seelie-winter-serandor-and-the-serantrae-dominion-the-winter-court-.jpeg
 ---
-The Seelie Court of Winter, House Seranthiel  - is the most powerful of all the Seelie Courts. It is a realm of starlight and snow. Frost, Ice and at the heart of it lies Serandor — Capital of the Seelie Winter Court
+The Seelie Court of Winter, House Seranthiel  - is the most powerful of all the Seelie Courts.  The Seranstrae Dominium is a realm of starlight and snow. Frost, Ice and at the heart of it lies Serandor — Capital of the Seelie Winter Court
 
 Serandor stands like a fortress of star-forged ice upon the crest of the Frostspire Plateau. It is a city of soaring geometry: sharp angles softened by shimmering frost, domes etched with constellations, and bridges that glitter like frozen moonlight.
 
