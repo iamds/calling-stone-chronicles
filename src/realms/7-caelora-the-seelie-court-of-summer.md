@@ -1,6 +1,6 @@
 ---
 order: 7
-title: "Caelora The Seelie Court of Summer. "
+title: Caelora The Seelie Court of Summer. House Caelora Solcaris.
 slug: caelora
 tagline: Perpetual sunshine, soft breezes. Strength in Radiance
 description: "Dominated by the magic of radiance, fire and passion, Caelora is a
