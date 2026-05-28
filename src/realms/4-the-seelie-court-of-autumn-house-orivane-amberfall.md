@@ -10,5 +10,4 @@ description: "A land of knowledge, fruition,  and endings, where golden leaves
   are precious. Strongest at dusk. "
 image: /images/seelie-autumn-orivane-amberfall-.jpeg
 ---
-
-This is a longer description
+King Corvalis and Queen Eiradene rule over this land.
