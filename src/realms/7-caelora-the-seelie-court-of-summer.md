@@ -1,5 +1,5 @@
 ---
-order: 7
+order: 3
 title: The Seelie Court of Summer. House Caelora. Caelora
 slug: caelora
 tagline: Perpetual sunshine, soft breezes. Strength in Radiance
