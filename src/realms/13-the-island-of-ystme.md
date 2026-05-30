@@ -1,24 +1,26 @@
 ---
-order: 13
-title: The Island of Ystme
-slug: ystme
-tagline: Island of Knowledge and Magic
-description: Hidden amongst tranquil waters and towering mountains, Ystme is the
-  ancient sanctuary of the Grey Brethren. For centuries it has served as a place
-  of study, discovery and magical learning, drawing scholars and mages from
-  across the realms.
-image: /images/island-of-ystme-training-place-for-wizards-.jpg
+order: 14
+title: Smerdante's Retreat
+slug: smerdante's -retreat
+tagline: The Palace Beyond the Veil
+description: Hidden beyond impossible portals and shaped by Smerdante's will,
+  the Retreat is a place where darkness obeys its master and reality bends to
+  desire. What appears within its walls may be beautiful, but nothing can be
+  trusted.
+image: /images/smerdante-s-retreat-.jpg
 ---
 
 
-Ystme is one of the oldest centres of magical learning in existence.Upon its shores stands the great sanctuary of the Grey Brethren, an order devoted to the pursuit of knowledge, balance and understanding. Within its halls, students study the mysteries of magic, history, astronomy and the ancient forces that shape the realms.
+Smerdante's Retreat exists apart from the ordinary realms, accessible only through portals shaped by the High King's immense power. Within its shadowed chambers, darkness itself responds to his commands, creating furnishings, archways, illusions and entire environments with a gesture or a thought.
 
-A training ground for wizards, mages and those devoted to the light. 
+The Retreat serves as both sanctuary and prison. Its rooms shift and transform according to Smerdante's wishes, while the oppressive atmosphere weakens hope and isolates those trapped within. No windows offer comfort, no natural light enters, and even silence seems heavy within its walls.
 
-The island is renowned for its vast libraries, celestial observatories and rune-filled chambers, where knowledge gathered over countless generations is carefully preserved. Here, both Temerin and Smerdante once trained together before their paths diverged and their philosophies clashed.
+Here, glamour and reality become indistinguishable. Memories can be manipulated, visions conjured, and fears given form. It is a place designed not merely to imprison the body, but to undermine certainty itself. The mind becomes little more than a manipulation of deceit. 
 
-Unlike many magical strongholds, Ystme values wisdom above power. Its teachings emphasise restraint, responsibility and the understanding that knowledge may illuminate or corrupt depending upon the intentions of the one who wields it.  It has its core the understanding of truths and using the magic of the light responsibly. 
+For all its elegance and apparent luxury, the Retreat reflects the nature of its master: beautiful on the surface, controlling beneath, and ultimately built upon deception.
+
+Any prisoner has to fight with everything- mind, body, spirit. 
 
 Symbolism
 
-Ystme symbolises learning, wisdom and the choices that shape destiny. It represents the idea that knowledge itself is neither good nor evil, but becomes one or the other through the actions of those who possess it.
+Smerdante's Retreat symbolises manipulation, control and the seductive nature of false appearances. It represents the danger of confusing beauty with goodness and power with wisdom.
