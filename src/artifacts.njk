@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+title: Artifacts
+permalink: /artifacts/
+---
+<section class="page-hero">
+  <h1>Artifacts</h1>
+  <p>Ancient objects and powerful items that connect the mortal world to the Fae.</p>
+</section>
+<section class="section">
+  <div class="wrap grid cards2">
+    {% for artifact in collections.artifacts %}
+    <article class="panel">
+      <h2>{{ artifact.data.title }}</h2>
+      <p>{{ artifact.data.description }}</p>
+      {% if artifact.data.body %}
+      <div style="color:var(--muted);margin-top:16px;">{{ artifact.data.body | markdown | safe }}</div>
+      {% endif %}
+      {% if artifact.data.image %}
+      <img src="{{ artifact.data.image }}" alt="{{ artifact.data.title }}" style="width:100%;border-radius:14px;margin-top:20px;">
+      {% else %}
+      <div class="media-box" style="margin-top:20px;">Artifact image / dossier</div>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
