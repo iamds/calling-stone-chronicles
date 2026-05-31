@@ -124,6 +124,62 @@ collections:
         widget: "image"
         required: false
 
+  # ── Artifacts ─────────────────────────────────────────────────────────────
+  - name: "artifacts"
+    label: "Artifacts"
+    label_singular: "Artifact"
+    folder: "src/artifacts"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - label: "Name"
+        name: "title"
+        widget: "string"
+      - label: "URL Slug"
+        name: "slug"
+        widget: "string"
+        hint: "Lowercase, hyphens only, e.g. calling-stone"
+      - label: "Short Description"
+        name: "description"
+        widget: "text"
+      - label: "Lore"
+        name: "body"
+        widget: "markdown"
+        required: false
+      - label: "Artifact Image"
+        name: "image"
+        widget: "image"
+        required: false
+
+  # ── Real World Characters ──────────────────────────────────────────────────
+  - name: "real_world_characters"
+    label: "Real World Characters"
+    label_singular: "Real World Character"
+    folder: "src/real-world-characters"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - label: "Name"
+        name: "title"
+        widget: "string"
+      - label: "URL Slug"
+        name: "slug"
+        widget: "string"
+        hint: "Lowercase, hyphens only, e.g. anne-mcdowall"
+      - label: "Short Description"
+        name: "description"
+        widget: "text"
+      - label: "Extended Bio"
+        name: "body"
+        widget: "markdown"
+        required: false
+      - label: "Portrait Image"
+        name: "portrait"
+        widget: "image"
+        required: false
+
   # ── Realms ─────────────────────────────────────────────────────────────────
   - name: "realms"
     label: "Realms"

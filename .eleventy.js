@@ -41,6 +41,14 @@ module.exports = function (eleventyConfig) {
     api.getFilteredByGlob("src/creatures/*.md")
   );
 
+  eleventyConfig.addCollection("artifacts", (api) =>
+    api.getFilteredByGlob("src/artifacts/*.md")
+  );
+
+  eleventyConfig.addCollection("real_world_characters", (api) =>
+    api.getFilteredByGlob("src/real-world-characters/*.md")
+  );
+
   eleventyConfig.addCollection("realms", (api) =>
     api.getFilteredByGlob("src/realms/*.md").sort(
       (a, b) => (a.data.order || 99) - (b.data.order || 99)

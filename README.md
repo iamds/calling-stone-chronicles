@@ -33,6 +33,8 @@ npm start          # starts dev server at http://localhost:8080
 | Books | `src/books/*.md` | ✅ |
 | Characters | `src/characters/*.md` | ✅ |
 | Creatures | `src/creatures/*.md` | ✅ |
+| Artifacts | `src/artifacts/*.md` | ✅ |
+| Real World Characters | `src/real-world-characters/*.md` | ✅ |
 | Realms | `src/realms/*.md` | ✅ |
 | Blog posts | `src/blog/*.md` | ✅ |
 | Homepage text | `src/_data/homepage.json` | ✅ |
