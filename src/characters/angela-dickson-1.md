@@ -1,14 +1,14 @@
 ---
-title: Angela Dickson
-slug: angela-dickson
-description: "Angela Dickson is the school bully. She makes Gracie's life a
-  misery on a daily basis. "
-portrait: /images/angela-2.jpeg
+title: Simon Crowley
+slug: simon-crowley
+description: "Simon is the school heartthrob. He is into Drama and hopes to make
+  it his career. "
+portrait: /images/simon-proper-.jpg
 ---
-Angela Dickson extorts money, food and pretty much anything else from Gracie on a regular basis. She also taunts, belittles, and does anything she can to make Gracie feel awkward, uncomfortable and upset. Why she takes such a delight in bullying Gracie we do not know. 
+Simon, a very popular individual in Gracie's school, begins to take an interest in her in Book 2, 'Strands of Shadow and Truth'. However he is manipulative, demanding, and believes that girls are only useful if they comply to his demands. He is a true misogynist. His presence begins to haunt Gracie, when he finds her in the corridor, by the lockers, and anywhere he can discover her on her own. 
 
-She tends to fixate on the idea that Gracie is a failure and takes huge delight in reminding her of this, of her dyslexia and that everyone knows how stupid Gracie is. 
+His best friend and sidekick is Jordan Townsend. Together, they set out to make Gracie bend to their will. 
 
-She is pretty, gets plenty of boyfriends, but has an ugly nature. She appears in Book 1 'Threads of of Trial and Light.'
+Both are involved in the construction, filming and aftermath that follows the 'Hamlet' video. 
 
-Like most bullies, once Gracie finds a way to stand up to her, there are moments when she just walks away. Towards the end of Book 1, Angela leaves the school
+He has a connection to Seth, which is discovered later in book 2. Simon continues as a presence throughout the remaining four books.
