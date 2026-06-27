@@ -6,6 +6,7 @@ tagline: "A place of famine, spoiled harvest and want. "
 description: "Cindraveth is a place without contentment. Nothing thrives except
   a delight in the death of everything that lives. Its rich beauty hides a land
   starving within its own bounty where every harvest fails. "
+image: /images/details-unseelie-autumn-.jpg
 ---
 
 
