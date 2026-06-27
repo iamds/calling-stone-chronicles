@@ -1,14 +1,15 @@
 ---
-title: Angela
-slug: angela
-description: "Angela is a bully. She seeks out those she sees as weak and
-  vulnerable. It is Gracie's dyslexia that allows Angela to target her. "
-portrait: /images/angela-2.jpeg
+title: Theo Hawke
+slug: theo-hawke
+description: "Theo is the owner of The Whispering  Canvas, a local art gallery.
+  This place is Gracie's sanctuary, a place where someone understands her and
+  never turns her away. "
+portrait: /images/theo-.jpg
 ---
-Angela is the school bully. She has two friends who usually join her in her activities. She threatens, extorts and makes life thoroughly miserable for Gracie on a daily basis. Angela is an attractive girl, with long blonde hair, slim figure, and with no need to struggle at school. 
+Theo is a close friend of Gracie. He owns The Whispering Canvas an art gallery where Gracie finds sanctuary from the struggles and challenges of every day life, especially home and school.  It is where she takes the little black kitten. Theo adopts the cat without question, naming it Fusain Monet, because he can't decide on one name. 
 
-She takes great delight in humiliating Gracie and making her miserable. 
+He recognises Gracie's talent with Art. He encourages it and supports her as much as he can. 
 
-She is instrumental in 'the pond' incident and plays a major role in the one time Tommy behaves badly. 
+A gentle, kind, clever artist on whom Gracie can always rely. 
 
-Why Angela targets Gracie we never know, as she leaves towards the end of book 1 the victim herself of an  unfortunate on-line situation.
+When his relationship with his partner disintegrates, the gallery is closed. Theo disappears. Gracie's sanctuary is no more.
