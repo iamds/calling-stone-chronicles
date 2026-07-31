@@ -7,6 +7,7 @@ tagline: " Freedom is not found in leaving the world behind. It is found in
 description: >
   The Hidden Kingdom of Seelie Air appears untouched by the earth below. Freedom
   breathes in every tower, every bridge, every path.
+image: /images/seelie-hidden-realm-of-air-.jpg
 ---
 # The Hidden Kingdom of Seelie Air
 
