@@ -1,6 +1,6 @@
 ---
 order: 3
-title: Hidden Kingdom of Seelie Fire
+title: " The Hidden Kingdom of Seelie Fire"
 slug: fire
 tagline: Seelie Fire is the living expression of Transformation.
 description: "Beneath the depths of Caelora, Seasonal Seelie Court of Summer,
