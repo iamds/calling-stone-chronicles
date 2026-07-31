@@ -1,6 +1,6 @@
 ---
 order: 1
-title: "HIdden Kingdom of Seelie Earth "
+title: " The Hidden Kingdom of Seelie Earth "
 slug: earth
 tagline: Shaped by Growth, not power.
 description: "Nothing appears built. Even stone chooses its own form.  Straight
