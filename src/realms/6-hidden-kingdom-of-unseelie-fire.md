@@ -1,5 +1,5 @@
 ---
-order: 6
+order: 7
 title: Hidden Kingdom of Unseelie Fire
 slug: unseelie-fire
 tagline: Unseelie Fire searches for Perfection.
