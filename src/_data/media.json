@@ -1,8 +1,12 @@
 {
-  "video_embed": "https://youtube.com/shorts/bNK6slOzDtQ?feature=share\n\n\nThornhelm - Unseelie King of Summer - The Mire King ",
+  "video_embed": "https://youtube.com/shorts/bNK6slOzDtQ?feature=share\nThornhelm - Unseelie King of Summer - The Mire King \n\nhttps://youtube.com/shorts/qNlHdsf_NQE?feature=share\nTavian - The Storyteller Prince ",
   "gallery": [
     {
       "image": "/images/thornhelm-king-of-mire.jpg"
+    },
+    {
+      "image": "/images/tavian-.jpg",
+      "caption": "Meet Thornhelm - The Mire King and Tavian -The Storyteller Prince."
     }
   ]
 }
