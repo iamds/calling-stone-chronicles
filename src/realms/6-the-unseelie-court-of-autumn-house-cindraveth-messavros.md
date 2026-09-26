@@ -1,19 +1,17 @@
 ---
 order: 7
 title: The Unseelie Court of Autumn. House Cindraveth. Messavros
-slug: cindraveth
+slug: messavros
 tagline: "A place of famine, spoiled harvest and want. "
-description: "Cindraveth is a place without contentment. Nothing thrives except
+description: "Messavros  is a place without contentment. Nothing thrives except
   a delight in the death of everything that lives. Its rich beauty hides a land
   starving within its own bounty where every harvest fails. "
-image: /images/details-unseelie-autumn-.jpg
+image: /images/messavros-.jpg
 ---
-
-
-Cindraveth — Realm of the Unseelie Autumn Court
+Messavros — Realm of the Unseelie Autumn Court
 The realm of famine, want, and the beauty of dying things.
 
-Cindraveth is autumn stripped of comfort.
+It is autumn stripped of comfort.
 
 No warm harvest fires.
 No gentle falling leaves.
@@ -23,7 +21,7 @@ Only decline stretched endlessly toward ruin.
 
 The realm lies beneath a sky of perpetual dusk where sunlight filters weakly through drifting ash clouds, staining the world bronze, copper, and dying red. Winds move constantly across the land, carrying the dry whisper of dead leaves and the faint scent of smoke from fields that never stop smouldering.
 
-At first glance, Cindraveth appears beautiful.
+At first glance, Messavros appears beautiful.
 
 Forests blaze with crimson and gold.
 Lanterns glow softly through silver mist.
@@ -73,7 +71,7 @@ beauty,
 safety,
 hope.
 
-In Cindraveth, deprivation is considered sacred.
+In Messavros, deprivation is considered sacred.
 
 They do not simply destroy abundance.
 
@@ -110,7 +108,7 @@ The realm is known for:
 • Tactical warfare built on attrition, patience, and slow collapse rather than open conquest.
 • Harvest feasts where glamour hides poison, hunger, or enchantment beneath beauty.
 
-At the heart of Cindraveth lies its deepest truth:
+At the heart of Messavros lies its deepest truth:
 
 The realm does not fear death.
 
