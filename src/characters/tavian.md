@@ -11,4 +11,4 @@ His stories fill the nights of the quest with knowledge, fun and laughter and of
 
 He supports Gracie, when everyone else, apart from Temerin and Quinn, see her as a threat. He stands by her, and helps her. He is a true, loyal, trustworthy friend.
 
-As the books go on, Tavian becomes increasingly important, to Gracie, to fate and to her destiny.
+As the books go on, Tavian becomes increasingly important to Gracie, to fate and to her destiny.
