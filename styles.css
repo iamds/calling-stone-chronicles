@@ -241,3 +241,8 @@ a.card:hover,.blog-card:hover{transform:translateY(-4px);border-color:var(--line
 @media (prefers-reduced-motion:reduce){
   *{transition:none!important;scroll-behavior:auto!important}
 }
+.blog-post-content img{display:block;width:100%;height:auto;margin:2em 0;border-radius:var(--radius);border:1px solid var(--line)}
+.blog-post-content ul{padding-left:1.2em}
+.blog-post-content li{margin:.3em 0}
+.blog-post-content li::marker{color:var(--gold)}
+.blog-post-content h2::after{content:"";display:block;width:60px;height:1px;background:var(--gold);margin-top:14px}
