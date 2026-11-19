@@ -1,57 +1,23 @@
 # The Calling Stone Chronicles — Website
 
-Built with [Eleventy](https://11ty.dev) (static site generator) and [Decap CMS](https://decapcms.org) (browser-based content editor).
+A plain static website (HTML, CSS and images). No build step is needed.
 
----
+## Editing
 
-## Quick-start: deploy to Netlify
+Edit the `.html` files directly. Each page is an `index.html` in its own folder
+(e.g. `books/index.html`, or `realms/winter/index.html` for a single realm), with shared styling in `styles.css` and pictures in `images/`.
+The header nav is repeated at the top of every page, so a nav change has to be made in each file.
 
-1. **Push this repo to GitHub** (or fork it).
-2. **Import into Netlify** → New site → Import from Git → pick your repo.
-3. Build settings are already in `netlify.toml` — just click **Deploy**.
-4. In Netlify → **Identity** → Enable Identity.
-5. Under Identity → **Registration** → set to *Invite only*.
-6. Under Identity → **Git Gateway** → Enable Git Gateway.
-7. Invite yourself (or the author) via Identity → **Invite users**.
-8. Visit `https://YOUR-SITE.netlify.app/admin/` and log in.
+All links are relative, so the site works whether it's served from
+`https://<user>.github.io/calling-stone-chronicles/`, a custom domain, or opened straight from disk.
 
-The author can then edit everything — books, characters, creatures, realms, blog posts — directly in the browser, with no code knowledge needed.
+## Hosting on GitHub Pages
 
----
+1. Push to GitHub.
+2. In the repo go to **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**, branch `main`, folder `/ (root)`, and save.
+4. The site will appear at `https://<user>.github.io/calling-stone-chronicles/` after a minute or two.
 
-## Local development
+To preview locally: `python3 -m http.server` then open http://localhost:8000.
 
-```bash
-npm install
-npm start          # starts dev server at http://localhost:8080
-```
-
-## Content structure
-
-| Content type | Location | Editable in CMS |
-|---|---|---|
-| Books | `src/books/*.md` | ✅ |
-| Characters | `src/characters/*.md` | ✅ |
-| Creatures | `src/creatures/*.md` | ✅ |
-| Artifacts | `src/artifacts/*.md` | ✅ |
-| Real World Characters | `src/real-world-characters/*.md` | ✅ |
-| Realms | `src/realms/*.md` | ✅ |
-| Blog posts | `src/blog/*.md` | ✅ |
-| Homepage text | `src/_data/homepage.json` | ✅ |
-| About page | `src/_data/about.json` | ✅ |
-| Media page | `src/_data/media.json` | ✅ |
-| Images / uploads | `src/images/` | ✅ |
-
-## Adding new pages
-
-Create `src/your-page.njk` with:
-```
----
-layout: layouts/base.njk
-title: Your Page Title
-permalink: /your-page/
----
-<section class="page-hero">…</section>
-```
-
-Then add it to the nav in `src/_includes/layouts/base.njk`.
+The old Eleventy + Decap CMS source is still in the git history if it's ever needed.
