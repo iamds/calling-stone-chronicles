@@ -251,3 +251,26 @@ a.card:hover,.blog-card:hover{transform:translateY(-4px);border-color:var(--line
 .blog-post-content li{margin:.3em 0}
 .blog-post-content li::marker{color:var(--gold)}
 .blog-post-content h2::after{content:"";display:block;width:60px;height:1px;background:var(--gold);margin-top:14px}
+
+/* Books: buy links */
+.book-card .book-cover{width:min(320px,38%);flex:none;align-self:flex-start;display:block;transition:filter .2s}
+.book-card .book-cover img{width:100%}
+.book-card .book-cover:hover{filter:brightness(1.1)}
+.book-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px}
+.book-card .book-actions .button{margin-top:0}
+/* Tables in detail pages / posts */
+.item-body table,.blog-post-content table{width:100%;border-collapse:collapse;margin:1em 0 1.5em;font-size:.95em}
+.item-body th,.item-body td,.blog-post-content th,.blog-post-content td{text-align:left;vertical-align:top;padding:12px 14px;border-bottom:1px solid var(--line)}
+.item-body th,.blog-post-content th{font-family:var(--caps);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:400}
+.item-body td:first-child{color:#fff;white-space:nowrap}
+.item-body strong{color:#fff;font-weight:500}
+/* About: next project */
+.next-book{max-width:820px;margin:0 auto;text-align:center;padding:56px 56px 48px}
+.next-title{font-family:var(--display)!important;font-size:clamp(38px,5vw,58px)!important;letter-spacing:0!important;text-transform:none!important;color:#fff!important;margin:0 0 28px!important}
+.next-book p{color:#d6d4ce;margin:0 0 1em}
+.next-book .next-hook{font-family:var(--display);font-style:italic;font-size:25px;line-height:1.4;color:var(--gold-bright);margin-bottom:1.4em}
+.next-book .next-tagline{font-family:var(--display);font-size:30px;color:#fff;margin:1.4em 0 .6em}
+.next-book .next-tagline::before,.next-book .next-tagline::after{content:"✦";color:var(--gold);font-size:14px;vertical-align:middle;margin:0 14px}
+.next-book .next-note{color:var(--muted);font-style:italic}
+@media (max-width:900px){.book-card .book-cover{width:100%}}
+@media (max-width:600px){.next-book{padding:32px 22px}}
