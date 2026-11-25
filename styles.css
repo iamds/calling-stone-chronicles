@@ -55,10 +55,10 @@ h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.1;text-wrap:ba
   backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
   border-bottom:1px solid var(--line);
 }
-.nav{max-width:1240px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:16px 24px}
+.nav{max-width:1360px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:16px 24px}
 .logo{font-family:var(--caps);font-size:15px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-bright);white-space:nowrap}
 .logo::before{content:"✦";margin-right:10px;color:var(--gold);font-size:12px;vertical-align:2px}
-.nav-links{display:flex;gap:20px;flex-wrap:nowrap;justify-content:flex-end}
+.nav-links{display:flex;gap:17px;flex-wrap:nowrap;justify-content:flex-end}
 .nav-links a{
   font-family:var(--caps);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap;
   color:var(--muted);padding:6px 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s;
@@ -224,7 +224,7 @@ a.card:hover,.blog-card:hover{transform:translateY(-4px);border-color:var(--line
 .section + .footer,.section.alt + .footer{margin-top:0}
 
 /* ---------- Responsive ---------- */
-@media (max-width:1180px){
+@media (max-width:1300px){
   .nav{flex-direction:column;align-items:flex-start;gap:10px;padding:14px 18px}
   .nav-links{flex-wrap:nowrap;overflow-x:auto;max-width:100%;gap:20px;justify-content:flex-start;padding-bottom:4px;scrollbar-width:none;-webkit-mask-image:linear-gradient(to right,#000 85%,transparent)}
   .nav-links::-webkit-scrollbar{display:none}
@@ -287,3 +287,18 @@ a.zoom{display:block;cursor:zoom-in}
 .series-next:hover{border-color:var(--gold-bright);transform:translateY(-2px)}
 .series-next .series-label{display:block;font-family:var(--caps);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
 .series-next .series-title{font-family:var(--display);font-size:26px;color:#fff;line-height:1.25}
+
+/* Lifestyle */
+.group-title{font-family:var(--caps);font-size:15px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);text-align:center;margin:56px 0 28px;display:flex;align-items:center;gap:20px}
+.group-title::before,.group-title::after{content:"";flex:1;height:1px;background:linear-gradient(to right,transparent,var(--line),transparent)}
+.wrap > .group-title:first-of-type{margin-top:0}
+.market-realm{font-family:var(--caps);font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--silver);margin:22px auto 0}
+.blog-post-content .market-closing{font-family:var(--display);font-style:italic;font-size:1.3em;line-height:1.45;color:var(--gold-bright);text-align:center;margin:1.6em auto 0;max-width:620px}
+.blog-post-content .market-closing + .market-closing{margin-top:.4em}
+.blog-post-content .market-closing + .post-figure img{margin-top:1.6em}
+.cards4{display:flex;flex-wrap:wrap;justify-content:center;gap:24px}
+.cards4 > *{flex:0 1 calc((100% - 72px)/4);min-width:0;display:flex;flex-direction:column}
+.cards4 .blog-card h3{font-size:24px}
+.cards4 .blog-card .card-body{padding:22px 22px 24px}
+@media (max-width:1100px){.cards4 > *{flex-basis:calc((100% - 24px)/2)}}
+@media (max-width:600px){.cards4 > *{flex-basis:100%}}
